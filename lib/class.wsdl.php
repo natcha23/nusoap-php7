@@ -280,6 +280,7 @@ class wsdl extends nusoap_base {
         } 
 		// free the parser
         xml_parser_free($this->parser);
+		unset($this->parser);
         $this->debug('Parsing WSDL done');
 		// catch wsdl parse errors
 		if($this->getError()){
