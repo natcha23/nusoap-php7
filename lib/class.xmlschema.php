@@ -144,6 +144,7 @@ class nusoap_xmlschema extends nusoap_base  {
 	    	}
             
 			xml_parser_free($this->parser);
+			unset($this->parser);
 		} else{
 			$this->debug('no xml passed to parseString()!!');
 			$this->setError('no xml passed to parseString()!!');
