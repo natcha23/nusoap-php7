@@ -1,4 +1,7 @@
 <?php
+
+namespace Yaim;
+
 /*
 The NuSOAP project home is:
 http://sourceforge.net/projects/nusoap/

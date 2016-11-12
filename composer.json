@@ -1,5 +1,5 @@
 {
-    "name": "codecasts/nusoap-php7",
+    "name": "yaim/nusoap-php7",
     "description": "NuSOAP re-packaged for Packagist/Composer",
     "license": "LGPLv2",
     "authors": [
